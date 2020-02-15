@@ -1,7 +1,7 @@
 # Convert_raw
 Repository with code to convert raw images to jpgs or pngs using Python.
 
-# Dependencies: (python 3)
+### Dependencies: (python 3)
  - rawpy 
  - imageio 
  - tqdm
@@ -13,7 +13,7 @@ Next, install dependencies:
 pip install -r requirements.txt
 ```
 
-# Usage:
+### Usage:
 ```
 raw_to_png.py [-h] [--raw_dir RAW_DIR] [--save_dir SAVE_DIR]
                      [--ext EXT] [--save_ext SAVE_EXT]

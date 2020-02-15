@@ -27,7 +27,7 @@ raw_to_png.py [-h] [--raw_dir RAW_DIR] [--save_dir SAVE_DIR]
 ```
 Example:
 ```
-python raw_to_png.py --raw_dir /home/user/raw_pics -- save_dir /home/user/converted_pics --ext raw --save_ext png
+python raw_to_png.py --raw_dir /home/user/raw_pics --save_dir /home/user/converted_pics --ext raw --save_ext png
 ```
 
 

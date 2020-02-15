@@ -44,6 +44,7 @@ def convert(args):
     print('\n Converting raw .{} images to {}...'.format(args.ext, args.save_ext))
     raw_imgs = glob.glob(os.path.join(args.raw_dir, "*.{}".format(args.ext)))  #get all the raw images from the directory
     assert len(raw_imgs) > 0, 'No raw images found, perhaps the wrong raw file extension was inputted?'
+    
     #iterate over all raw images to convert them 
     for fp in tqdm(raw_imgs):
         raw = rawpy.imread(fp)     #read the image

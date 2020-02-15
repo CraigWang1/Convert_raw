@@ -49,7 +49,7 @@ def convert(args):
         raw = rawpy.imread(fp)     #read the image
         rgb = raw.postprocess()    #process it
         base = os.path.splitext(os.path.basename(fp))[0]   #get the base filename (eg. 'test' from '/home/usr/test.png')
-        new_fname = base + '.{}'.format(args.save_ext)     #add on our new extension (eg. now, 'test' -> 'test.png')
+        new_fname = base + '.{}'.format(args.save_ext)     #add on our new extension (eg. 'test' -> 'test.png')
         imageio.imsave(os.path.join(args.save_dir, new_fname), rgb)  #save converted image to new directory
     #print empty line to look aesthetic
     print('')

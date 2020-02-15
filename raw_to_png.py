@@ -37,7 +37,7 @@ def parse_args():
     # make the save directory if it doesn't exist
     if not os.path.isdir(args.save_dir):
         os.makedirs(args.save_dir)
-        print("\nWarning: Your save directory was not an existing directory, so we are creating them.")
+        print("\nWarning: Your save directory was not an existing directory, so we created it.")
     return args
 
 def convert(args):

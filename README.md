@@ -1,5 +1,5 @@
 # Convert_raw
-Repository with code to convert raw images to jpgs or pngs using Python 3.
+Repository to convert raw images to jpgs or pngs using Python 3.
 
 ### Dependencies: (python 3)
  - rawpy 

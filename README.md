@@ -21,7 +21,7 @@ raw_to_png.py [-h] [--raw_dir RAW_DIR] [--save_dir SAVE_DIR]
 -h, --help           show this help message and exit
 --raw_dir RAW_DIR    Directory with raw images.
 --save_dir SAVE_DIR  Directory path to save converted images. (eg:
-                     /home/user)
+                     /home/user/converted_imgs)
 --ext EXT            Image extension of the raw images (eg. 'raw').
 --save_ext SAVE_EXT  Image files extension to convert to.
 ```
